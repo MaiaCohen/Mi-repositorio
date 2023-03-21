@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Roboto+Condensed:ital@1&display=swap');
+
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+   margin: 0;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+  background-image: url(../img/img404.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.e{
+    display: flex;
+    flex-direction: column;
+    color: #ffff;
+    border-radius: 0.55rem;
+    background-color: rgba(55, 55, 55, 0.74);
+    justify-content: space-around;
+    text-align: center;
+    padding: 1rem;  
+    width: 85%;
+    height: 70%;
+    
+}
+.e>h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    font-size: 4.3rem;
+    margin: 0;
+}
+
+p{
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.5rem;
+    margin: 0;
+}
+.list{
+    display: flex;
+    justify-content: center;  
+    margin-left: 0rem;
+    
+}
+.list a{
+    font-family: 'Lato', sans-serif;
+    background-color: #fead26;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    width: 40%;
+    text-align: center;
+    font-size: 1rem;
+    margin-left: 1rem;
+    color:white;
+}
+a{
+    font-size: 1.7rem;
+    color: black;
+    width: 70%;
+    margin-left:  auto;
+    margin-right: auto;
+    transition: 1.5s;
+   
+}
+.list > a:hover{
+    transition: 1.5s;
+    background: linear-gradient(270deg, transparent 10%,
+     rgba(19, 18, 18, 0.329) 30%, rgba(0, 0, 0, 0.514) 65%, rgba(0, 0, 0, 0.808) 100%);
+    
+     
+}
+a:hover{
+    transition: 1.5s;
+    background: linear-gradient(270deg, transparent 10%,
+     rgba(19, 18, 18, 0.5) 40%, rgba(0, 0, 0, 0.808) 60%,transparent 100%);
+    
+     
+}
+i{
+    margin-right: 0.5rem;
+}
+
+@media  (min-width: 768px) {
+    .e>h1{
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 2rem;
+    }
+    .list > a{
+        font-size: 1rem;
+
+    }
+    .e{
+        width: 70%;
+        height: 60%;
+    }
+}
+
+
+@media (min-width: 992px){
+    .e{
+        width: 65%;
+        height: 55%;
+    }
+}
+
+@media  (min-width: 1200px){
+    .e{
+        width: 50%;
+        height: 45%;
+    }
+}
+

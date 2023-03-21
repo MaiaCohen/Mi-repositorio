@@ -1,0 +1,116 @@
+
+.bg-nav {
+    background-color:#EEEEEE;
+}
+
+.container {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bordes {
+    --bs-btn-color: #212529;
+    --bs-btn-border-color: #212529;
+    --bs-btn-hover-bg: #d4a89a;
+    --bs-btn-hover-border-color: #212529;
+}
+
+.bg-stock {
+    opacity: 0.5;
+    background-color: #1a1a1f;
+    color: white;
+}
+
+.bg-s {
+    opacity: 1;
+    background-color: #1a1a1f;
+    color: white;
+}
+
+.bg-productos {
+    background-color: #273a3b;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 0.625rem;
+    height: 0.625rem;
+}
+
+.carousel-caption > h5 {
+    font-size:  4rem;
+}
+
+.carousel-caption > p {
+    font-size: 2rem;
+    font-family: 'Hind Guntur', sans-serif;
+}
+
+
+.carousel-item {
+    height: 92vh;
+}
+
+.carousel-item > img {
+    object-fit: cover;
+    filter: brightness(80%);
+}
+
+
+.bot1, .bot2 {
+    border:none;
+    background-color: transparent;
+    border-bottom: 2px solid #66ADB0;
+}
+
+.bot1:hover , .bot2:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.bot2 {
+    float: right;
+}
+
+.container > a {
+    font-size: 2.2rem;
+}
+
+.navbar {
+    font-size: 1.5rem;
+}
+
+.btn {
+    font-size: 1.2rem;
+}
+
+.navbar-brand {
+    margin-right: 2rem;
+}
+
+.texto > p {
+    font-family: 'Mukta Vaani', sans-serif;
+}
+
+.texto > h3 {
+    font-family: 'Hind Guntur', sans-serif;
+}
+
+.stock {
+    background-color: #66ADB0;
+}
+
+.redes > i {
+    font-size: 2rem;
+}
+
+.dropdown-menu > button {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #66ADB0;
+    margin-bottom: 0.8rem;
+}
+
+@media (max-width: 768px) {
+    .ocultar {
+        display: none;
+    }
+}
